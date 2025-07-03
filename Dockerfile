@@ -1,0 +1,6 @@
+FROM mariadb:latest
+
+ENV MYSQL_ROOT_PASSWORD=verysecret
+ENV MYSQL_DATABASE=conference
+
+EXPOSE 3306
